@@ -1,11 +1,10 @@
 # Print all keyywords and count
-import math
 import keyword
 
-list_keywords = keyword.kwlist
+print("Python keywords are as below : \n", keyword.kwlist)
+print("Number of Python keywords are ", len(keyword.kwlist))
 
-print(list_keywords)
-print("Number of keywords : "+str(len(list_keywords)))
+
 
 """
 # Identifiers in Python should NOT be:
@@ -22,9 +21,3 @@ print("Number of keywords : "+str(len(list_keywords)))
 
 # Difference between Identifier and Keyword
 """
-
-num = 5
-
-factorial = math.factorial(num)
-
-print("Factorial of " + str(num) + " is : " + str(factorial))
