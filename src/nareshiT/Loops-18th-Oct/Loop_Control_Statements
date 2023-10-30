@@ -1,0 +1,36 @@
+'''
+Loop Control Statements
+Loop control statements are used to execute block of statements number of times or until given condition.
+
+Python support 2 types of loop control statements
+while loop
+for loop
+
+while statement
+
+“while” keyword represents “while” loop.
+While loop repeat one or more than one statement until given condition is True.
+
+While loop required 3 statements
+1. Initialization statement
+2. Condition statement
+3. Update statement
+Initialization statement defines initial value of condition
+Condition defines how many times while loop has to be repeated
+Update statement which updates condition.
+
+'''
+
+# Write a program to print Hello 5 times
+
+num = 1
+
+while num <= 5:
+    print(f"Hello {num}")
+    num = num + 1
+
+
+
+
+
+# Write
